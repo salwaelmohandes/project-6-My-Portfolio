@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+        "id": 1,
+        "project_name":"Random Quote Generator",
+        "description":"Building a program that displays a randomly selected quote with different properties printed out each time the user clicks a button and Quotes automatically refresh at regular intervals",
+        "technologies":["JavaScript","HTML","CSS"],
+        "live_link":"https://salwaelmohandes.github.io/Project-1/",
+        "github_link":"https://github.com/salwaelmohandes/Project-1",
+        "image_urls":["/images/Random-Quote-1.png","/images/Random-Quote-2.png","/images/Random-Quote-3.png","/images/Random-Quote-4.png"]
+        },
+        {
+        "id": 2,
+        "project_name":"List Pagination and Filtering",
+        "description":"It’s basic DOM Manipulation hiding and showing HTML on a page using a set of buttons which I added to the page dynamically. I completed this project using just two global variables and a search function that paginate the search results using the pagination function already exist.",
+        "technologies":["JavaScript","HTML","CSS"],
+        "live_link":"https://salwaelmohandes.github.io/project-2_List-Pagination-and-Filtering/",
+        "github_link":"https://github.com/salwaelmohandes/project-2_List-Pagination-and-Filtering",
+        "image_urls":["/images/Pagination-1.png","/images/Pagination-2.png","/images/Pagination-3.png","/images/Pagination-4.png"]
+        },
+        {
+        "id": 3,
+        "project_name":"Interactive Form",
+        "description":"Using JavaScript to make the form more user-friendly by customizing it and adding conditional behavior and interactivity. Validate user input and provide helpful error messages and real-time error messages when the user enters invalid information into the form fields or leave it blank.",
+        "technologies":["JavaScript","HTML","CSS"],
+        "live_link":"https://salwaelmohandes.github.io/project-3-Interactive-form/",
+        "github_link":"https://github.com/salwaelmohandes/project-3-Interactive-form",
+        "image_urls":["/images/Form-1.png","/images/Form-2.png","/images/Form-3.png","/images/Form-4.png"]
+        },
+        {
+        "id": 4,
+        "project_name":"OOP Game Show App",
+        "description":"create a browser-based, word guessing game: 'Phrase Hunter'. By using JavaScript and Object-Oriented Programming to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard or using their physical computer keyboard. The program choose a random phrase, split the phrase into letters, and put those letters onto the game board. Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase. If the letter is in the phrase, the game board displays the chosen letters on the screen.  A player can guess a letter only once. A player continues to select letters until they guess the phrase and a winning screen appears, or make five incorrect guesses and a losing screen appears.",
+        "technologies":["JavaScript","HTML","CSS"],
+        "live_link":"https://salwaelmohandes.github.io/project-4-oop-game/",
+        "github_link":"https://github.com/salwaelmohandes/project-4-oop-game",
+        "image_urls":["/images/Hunter-Game-1.png","/images/Hunter-Game-2.png","/images/Hunter-Game-3.png","/images/Hunter-Game-4.png"]
+        },
+        {
+        "id": 5,
+        "project_name":"Public API Requests",
+        "description":"Building an app by using the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and use that data to build a prototype for an employee directory.By requesting JSON from the API and parse the data for the employees as a list.Clicking the employee’s image or name will open a modal window with more detailed information.toggling back and forth between employees when the modal window is open and hide the previous or next buttons when it comes to the end of the list.",
+        "technologies":["JavaScript","HTML","CSS"],
+        "live_link":"https://salwaelmohandes.github.io/project-5-public-API-requests/",
+        "github_link":"https://github.com/salwaelmohandes/project-5-public-API-requests",
+        "image_urls":["/images/API-1.png","/images/API-2.png","/images/API-3.png","/images/API-4.png"]
+    }]
+}
+

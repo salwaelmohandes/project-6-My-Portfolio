@@ -1,0 +1,30 @@
+{
+  "name": "project-6-my-portfolio",
+  "version": "1.0.0",
+  "description": "Static Node.js and Express Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salwaelmohandes/project-6-My-Portfolio.git"
+  },
+  "author": "Salwa Elmohandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salwaelmohandes/project-6-My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/salwaelmohandes/project-6-My-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
+}
