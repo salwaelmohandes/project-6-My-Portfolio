@@ -3,14 +3,11 @@ extends layout
 block content 
   article.grid-container.portfolio-intro
     div
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
       h1 Looking for A Web Developer?
-      //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
         |This Portfolio is about my projects I made using JavaScript, Static Node.js and Express Site as a start for my web development career. 
   article.grid-container.portfolio-index
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-      //- create a project img, title and link in the markup for each of the projects you are showcasing.  
       each project in projects
         .cell
           a(href=`/projects/${project.id}`)

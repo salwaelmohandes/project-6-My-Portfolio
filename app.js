@@ -16,6 +16,7 @@ app.use(express.static(path.join(__dirname,'public')));
 // routes setup
 app.use('/', routes);
 
+// Treehouse Course Video https://teamtreehouse.com/library/error-handling-middleware
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
     const err = new Error('err');
@@ -24,7 +25,7 @@ app.use((req, res, next) => {
     next(err);
 });
 
-// Error handler
+// Handle errors and print message,status and stack with a user friendly error page.
 if (app.get('env') === 'development') {
     app.use((err, req, res, next) => {
       res.status(err.status || 500);
@@ -34,7 +35,6 @@ if (app.get('env') === 'development') {
       });
     });
   }
-   
   app.use((err, req, res, next) => {
     res.status(err.status || 500);
     res.render('error', {
