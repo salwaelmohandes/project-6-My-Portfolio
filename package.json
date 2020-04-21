@@ -7,6 +7,9 @@
     "test": "mocha",
     "start": "nodemon"
   },
+  "engines":{
+    "nodemon": "^2.0.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/salwaelmohandes/project-6-My-Portfolio.git"
@@ -20,7 +23,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "http-errors": "^1.7.3",
-    "nodemon": "^2.0.2",
+    "nodemon": "^2.0.3",
     "path": "^0.12.7",
     "pug": "^2.0.4"
   },
